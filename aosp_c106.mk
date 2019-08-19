@@ -27,11 +27,11 @@ IS_PHONE := true
 $(call inherit-product, device/coolpad/c106/full_c106.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := c106
-PRODUCT_NAME := bootleg_c106
+PRODUCT_NAME := aosp_c106
 PRODUCT_BRAND := LeEco
 PRODUCT_MANUFACTURER := LeMobile
 
