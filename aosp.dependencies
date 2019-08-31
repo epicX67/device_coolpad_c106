@@ -2,7 +2,7 @@
   {
     "remote": "github",
     "repository": "DNI9/kernel_coolpad_msm8976",
-    "target_path": "kernel/coolpad/msm8976"
+    "target_path": "kernel/coolpad/msm8976",
     "branch": "pie"
   },
   {
